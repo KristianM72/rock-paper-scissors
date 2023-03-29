@@ -1,0 +1,30 @@
+/* --------- Global style */
+
+body {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    color: #030508;
+    text-align: center;
+}
+
+/* --------- Game layout */
+.game-area {
+    background-color: black;
+    box-sizing: border-box;
+    width: 85%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4%;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    
+}
+
+#main {
+    width: 130px;
+    height: 30vh;
+    margin-top: 4px;
+}
