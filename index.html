@@ -11,20 +11,32 @@
     <title>Rock, Paper, Scissors</title>
 </head>
 <body>
+    <!-- Heading section -->
     <h1>Rock, Paper, Scissors</h1>
 
-    
+    <!-- Player buttons and score-area -->
         <h2>Make a Choice:</h2>
         <div class="controls-area">
-            <button data-type="rock"><img class="rock" id ="main" src="assets/images/rock.jpg"></button>
-            <button data-type="paper"><img class="paper" id ="main" src="assets/images/paper.jpg"></button>
-            <button data-type="scissors"><img class="scissors" id ="main" src="assets/images/scissors.jpg"></button>
+            <button data-choice="0"><img class="rock" id ="rock" src="assets/images/rock.jpg"></button>
+            <button data-choice="1"><img class="paper" id ="paper" src="assets/images/paper.jpg"></button>
+            <button data-choice="3"><img class="scissors" id ="scissors" src="assets/images/scissors.jpg"></button>
     </div>
     <div class="score-area">
-        <p class="scores">Your Score! <span id="your-score">0</span></p>
-        <p class="scores">Computer Score! <span id="computer-score">0</span></p>
+        <p class="scores">Your Score: <span id="your-score">0</span></p>
+        <p class="scores">Computer Score: <span id="computer-score">0</span></p>
+    </div>
+
+    <div class="result">
+        <p>Paper covers rock. You win!</p>
     </div>
 
     <script src="assets/js/script.js"></script>
+
+    <div class="footer">
+        <h2>Rules</h2>
+        <p>Scissors Cut Paper | Paper Covers Rock | Rock Blunts Scissors</p>
+    </div>
+      </footer>
+      
 </body>
 </html>
