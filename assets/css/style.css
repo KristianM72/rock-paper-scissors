@@ -5,21 +5,4 @@ body {
     font-family: "Roboto", sans-serif;
     color: #030508;
     text-align: center;
-
-
-    
 }
-
-#scissors {
-    
-}
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(221, 91, 202);
-    color: white;
-    text-align: center;
- }
